@@ -1,9 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-
-}body {
-    background-color: #ecf0f1;
-    
-  
+body {
+ 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,6 +39,7 @@ button {
 #menu-container li a {
     color: white; 
     font-family: 'Volkhov', serif;
+    text-transform: uppercase;
     
 }
 
@@ -141,6 +143,10 @@ button {
 /* Pricing table */
 
 .pricing-table {
+    font-family: 'Volkhov', serif;
+}
+
+.pricing-table {
   border: solid 1px #DDDDDD; }
   .pricing-table li {
     border-bottom: dotted 1px #DDDDDD;
@@ -164,6 +170,10 @@ button {
   .pricing-table .button {
     margin: 0; }
 
+
+/* pricing table*/
+
+
 #info-container {
   max-height: 800px;
 }
@@ -172,3 +182,76 @@ button {
   width: 100%;
   height: 600px;
 }
+
+#info-container {
+    background-color: black;
+    color: white;
+    padding: 1em 0;
+    
+}
+
+
+
+/*  suscribete*/
+
+
+
+#info-container h3,
+#suscribete-container h3 {
+    font-family: 'Volkhov', serif;
+}
+
+#suscribete-container {
+    background-color: #044F67;
+    padding: 0.5em 0;
+    color: white;
+    
+}
+
+#suscribete-container h4 small {
+    color: #3498db; 
+    font-family: 'Volkhov', serif;
+}
+
+#suscribete-container input[type:"submit"] {
+    
+   font-family: 'Volkhov', serif;
+    
+}
+
+#suscribete-container .error-container {
+    
+     font-family: 'Volkhov', serif;
+    
+}
+
+.is-invalid-input:not(:focus){
+    background-color: #bdc3c7;
+    border-color: #95a5a6;
+}
+
+
+
+/* suscribete  */
+
+
+/* menu sticky */
+.data-sticky {
+    width: 100%;
+    z-index: 100;
+}
+
+/* menu sticky */
+
+/* offcanvas---menude navegacion para moviles*/
+
+
+#offCanvas,
+#offCanvas li a {
+    background-color: black;
+    font-family: 'Volkhov', serif;
+    color: white;
+    
+}
+
+/* /////offcanvas---menude navegacion para moviles*/
