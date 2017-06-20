@@ -1,0 +1,185 @@
+body {
+    background-color: #ecf0f1;
+    
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: 'Bangers', cursive;
+    
+}
+
+button {
+    font-family: 'Volkhov', serif;
+}
+
+#social-container {
+    background-color: #2c3e50;
+}
+
+#logo-container .callout {
+    background-color: #e74c3c;
+    color: white;
+    margin: 0;
+    border: 0;
+}
+
+#menu-container {
+    background-color: #e74c3c;
+    
+    
+}
+
+#menu-container li a {
+    color: white; 
+    font-family: 'Volkhov', serif;
+    
+}
+
+#submenu-container {
+    border: 0;
+}
+
+#menu-container li a:hover, 
+#submenu-container li a:hover{
+    color: #bdc3c7;
+}
+
+#submenu-container li a {
+    background-color: #2ecc71;
+    color: white;
+    
+    
+}
+
+#tickets-action .callout {
+    background-color: #e74c3c;
+    color: white;
+    margin: 0;
+    border: 0;
+}
+
+#tickets-action .callout button {
+    color: white;
+    border: 1px solid white;
+}
+
+#lineup-container {
+    padding: 1em 0; 
+}
+
+#lineup-container,
+#lineup-container .tabs-panel, 
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a {
+    background-color:#044F67;
+    color: #e74c3c;
+    border: 0;
+    font-family: 'Volkhov', serif;
+    text-transform: uppercase;
+    
+}
+
+.tabs-content {
+    border: 0;
+}
+
+#lineup-container .tabs .tabs-title a {
+    font-size:  18px;
+    color:  white;
+}
+
+#lineup-container .tabs .tabs-title a:hover {
+    color: #26A65B;
+    background-color: #87D37C;
+} 
+
+.tabs-title {
+    display: inline-block;
+    float: none;
+    /* ponemos estas claces porque foundetion no nos permite centrar este contenido*/
+}
+
+/*  imagenes */
+#lineup-container .orbit-slide {
+    margin-bottom: 1em;
+    margin-top: 1em;
+   
+}
+
+
+
+
+#lineup-container .miorbit-caption {
+    position: relative;
+    top: -55px;
+   
+}
+
+#lineup-container .column:nth-child (odd) figcaption { /** sirb para colocacr ala izquierda o derecha a los pares o impares */
+    
+    text-align: center;
+}
+
+/*  compra tus entrada */
+
+
+#tickets-container {
+    padding: 1em 0;
+    background-color: #F2F1EF;
+    color: #6C7A89;
+    
+}
+
+
+.pricing-table {
+    background-color: #5D8CAE;
+    font-family: 'Volkhov', serif;
+    border: solid 1px gray;
+    font-size: 20px;
+    color: white;
+}
+
+.pricing-table .title {
+    background-color: #F9690E;
+    color: white
+    
+}
+
+.pricing-table  .price {
+    
+    background-color: #D2D7D3;
+    color: #F9690E;
+  
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    
+    
+}
+
+.pricing-table  a.button {
+    font-family: 'Volkhov', serif;
+    /* font-size: 20px; */
+}
+
+
+
+
+/*  compra tus entrada */
+
+/* informacion */
+#info-container {
+    background-color: #044F67;
+    color: white;
+    padding: 1em 0;
+}
+
+
+/* informacion */
+
+#info-container .info-map iframe {
+    width: 100%;
+}
+
+
