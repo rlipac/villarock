@@ -1,4 +1,6 @@
-body {
+
+
+}body {
     background-color: #ecf0f1;
     
   
@@ -15,7 +17,10 @@ button {
 
 #social-container {
     background-color: #2c3e50;
+    
 }
+
+
 
 #logo-container .callout {
     background-color: #e74c3c;
@@ -91,8 +96,8 @@ button {
 }
 
 #lineup-container .tabs .tabs-title a:hover {
-    color: #26A65B;
-    background-color: #87D37C;
+    color: #e74c3c;
+    background-color: #044F67;
 } 
 
 .tabs-title {
@@ -133,53 +138,37 @@ button {
 }
 
 
+/* Pricing table */
+
 .pricing-table {
-    background-color: #5D8CAE;
-    font-family: 'Volkhov', serif;
-    border: solid 1px gray;
-    font-size: 20px;
-    color: white;
-}
+  border: solid 1px #DDDDDD; }
+  .pricing-table li {
+    border-bottom: dotted 1px #DDDDDD;
+    font-size: 0.85rem;
+    padding: 0.875rem 1.125rem; }
+    .pricing-table li:last-child {
+      border-bottom: 0; }
+  .pricing-table .title {
+    background-color: #333333;
+    color: #EEEEEE;
+    font-size: 0.875rem;
+    border-bottom: 0; }
+  .pricing-table .price {
+    background-color: #F6F6F6;
+    color: #333333;
+    font-size: 1.75rem;
+    border-bottom: 0; }
+  .pricing-table .description {
+    color: #777777;
+    font-size: 0.925rem; }
+  .pricing-table .button {
+    margin: 0; }
 
-.pricing-table .title {
-    background-color: #F9690E;
-    color: white
-    
-}
-
-.pricing-table  .price {
-    
-    background-color: #D2D7D3;
-    color: #F9690E;
-  
-    font-family: 'Permanent Marker', cursive;
-    font-size: 38px;
-    
-    
-}
-
-.pricing-table  a.button {
-    font-family: 'Volkhov', serif;
-    /* font-size: 20px; */
-}
-
-
-
-
-/*  compra tus entrada */
-
-/* informacion */
 #info-container {
-    background-color: #044F67;
-    color: white;
-    padding: 1em 0;
+  max-height: 800px;
 }
 
-
-/* informacion */
-
-#info-container .info-map iframe {
-    width: 100%;
+.info-map iframe {
+  width: 100%;
+  height: 600px;
 }
-
-
