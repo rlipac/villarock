@@ -150,7 +150,8 @@
                                              <div class="responsive-embed">
 
 
-                                                    <video autoplay="" controls="" src="video/elamate.mp4"></video>
+
+                                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GMFewiplIbw?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                                                     <!--
                                                      <iframe width="560" height="315" src="https://www.youtube.com/embed/awYrxdgIbzM" frameborder="0" allowfullscreen></iframe>
                                                      -->
@@ -237,7 +238,9 @@
 
                                           <div class="responsive-embed">
 
-                                          <video autoplay="" controls="" src="video/pop.mp4"></video>
+
+                                          <iframe width="560" height="315" src="https://www.youtube.com/embed/GMFewiplIbw?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
 
                                                <!--
                                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/j5rGm3kdTuk" frameborder="0" allowfullscreen></iframe>
@@ -502,48 +505,3 @@
 
   </body>
 </html>
-
-<IfModule mod_headers.c>
-	Header unset ETag
-        Header set Connection keep-alive
-        FileETag None
-</IfModule>
-
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresDefault A2592000
-
-<FilesMatch "\.(txt|xml|js)$">
-ExpiresDefault A2592000
-</FilesMatch>
-
-<FilesMatch "\.(css)$">
-ExpiresDefault A2592000
-</FilesMatch>
-
-<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|mp4|m4v|ogg|webm|aac)$">
-ExpiresDefault A2592000
-</FilesMatch>
-
-<FilesMatch "\.(jpg|jpeg|png|gif|swf|webp)$">
-ExpiresDefault A2592000
-</FilesMatch>
-</IfModule>
-
-<IfModule mod_headers.c>
-  <FilesMatch "\.(txt|xml|js)$">
-   Header set Cache-Control "max-age=2592000"
-  </FilesMatch>
-
-  <FilesMatch "\.(css)$">
-   Header set Cache-Control "max-age=2592000"
-  </FilesMatch>
-
-  <FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|mp4|m4v|ogg|webm|aac)$">
-   Header set Cache-Control "max-age=2592000"
-  </FilesMatch>
-
-  <FilesMatch "\.(jpg|jpeg|png|gif|swf|webp)$">
-   Header set Cache-Control "max-age=2592000"
-  </FilesMatch>
-</IfModule>
