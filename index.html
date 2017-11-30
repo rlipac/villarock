@@ -498,5 +498,52 @@
            <link rel="icon" href="assets/perro1.ico">
         <script src="js/app.js"></script>
 
+
+
   </body>
 </html>
+
+<IfModule mod_headers.c>
+	Header unset ETag
+        Header set Connection keep-alive
+        FileETag None
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault A2592000
+
+<FilesMatch "\.(txt|xml|js)$">
+ExpiresDefault A2592000
+</FilesMatch>
+
+<FilesMatch "\.(css)$">
+ExpiresDefault A2592000
+</FilesMatch>
+
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|mp4|m4v|ogg|webm|aac)$">
+ExpiresDefault A2592000
+</FilesMatch>
+
+<FilesMatch "\.(jpg|jpeg|png|gif|swf|webp)$">
+ExpiresDefault A2592000
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(txt|xml|js)$">
+   Header set Cache-Control "max-age=2592000"
+  </FilesMatch>
+
+  <FilesMatch "\.(css)$">
+   Header set Cache-Control "max-age=2592000"
+  </FilesMatch>
+
+  <FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|mp4|m4v|ogg|webm|aac)$">
+   Header set Cache-Control "max-age=2592000"
+  </FilesMatch>
+
+  <FilesMatch "\.(jpg|jpeg|png|gif|swf|webp)$">
+   Header set Cache-Control "max-age=2592000"
+  </FilesMatch>
+</IfModule>
