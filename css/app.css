@@ -1,265 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
- 
-}
-
-h1, h2, h3, h4, h5, h6 {
-      font-family: 'Bangers', cursive;
-    
-}
-
-button {
-    font-family: 'Volkhov', serif;
-}
-
-#social-container {
-    background-color: #2c3e50;
-    
-}
-
-
-
-#logo-container .callout {
-    background-color: #e74c3c;
-    color: white;
-    margin: 0;
-    border: 0;
-}
-
-#menu-container {
-    background-color: #e74c3c;
-    
-    
-}
-
-#offCanvas  .is-drilldown-submenu-parent > a::after {
-    border-color: transparent transparent transparent #e67e22;
-}
-
-
-#offCanvas .js-drilldown-back > a::before {
-    border-color: transparent #e67e22 transparent transparent;
-}
-#menu-container li a {
-    color: white; 
-    font-family: 'Volkhov', serif;
-    text-transform: uppercase;
-    
-}
-
-#submenu-container {
-    border: 0;
-}
-
-#menu-container li a:hover, 
-#submenu-container li a:hover{
-    color: #bdc3c7;
-}
-
-#submenu-container li a {
-    background-color:#e74c3c;
-    color: white;
-    
-    
-}
-
-#tickets-action .callout {
-    background-color: #e74c3c;
-    color: white;
-    margin: 0;
-    border: 0;
-}
-
-#tickets-action .callout button {
-    color: white;
-    border: 1.5px solid white;
-}
-
-#lineup-container {
-    padding: 1em 0; 
-}
-
+*{margin:0;padding:0;}
+body{}
+h1, h2, h3, h4, h5, h6{font-family:'Bangers', cursive;}
+button{font-family:'Volkhov', serif;}
+#social-container{background-color:#2c3e50;}
+#logo-container .callout{background-color:#e74c3c;color:white;margin:0;border:0;}
+#menu-container{background-color:#e74c3c;}
+#offCanvas .is-drilldown-submenu-parent > a::after{border-color:transparent transparent transparent #e67e22;}
+#offCanvas .js-drilldown-back > a::before{border-color:transparent #e67e22 transparent transparent;}
+#menu-container li a{color:white;font-family:'Volkhov', serif;text-transform:uppercase;}
+#submenu-container{border:0;}
+#menu-container li a:hover,
+#submenu-container li a:hover{color:#bdc3c7;}
+#submenu-container li a{background-color:#e74c3c;color:white;}
+#tickets-action .callout{background-color:#e74c3c;color:white;margin:0;border:0;}
+#tickets-action .callout button{color:white;border:1.5px solid white;}
+#lineup-container{padding:1em 0;}
 #lineup-container,
-#lineup-container .tabs-panel, 
+#lineup-container .tabs-panel,
 #lineup-container .tabs,
 #lineup-container .tabs .tabs-title,
-#lineup-container .tabs .tabs-title.is-active a {
-    background-color:#044F67;
-    color: #e74c3c;
-    border: 0;
-    font-family: 'Volkhov', serif;
-    text-transform: uppercase;
-    
-}
-
-.tabs-content {
-    border: 0;
-}
-
-#lineup-container .tabs .tabs-title a {
-    font-size:  18px;
-    color:  white;
-}
-
-#lineup-container .tabs .tabs-title a:hover {
-    color: #e74c3c;
-    background-color: #044F67;
-} 
-
-.tabs-title {
-    display: inline-block;
-    float: none;
-    /* ponemos estas claces porque foundetion no nos permite centrar este contenido*/
-}
-
-/*  imagenes */
-#lineup-container .orbit-slide {
-    margin-bottom: 1em;
-    margin-top: 1em;
-   
-}
-
-
-
-
-#lineup-container .miorbit-caption {
-    position: relative;
-    top: -55px;
-   
-}
-
-#lineup-container .column:nth-child (odd) figcaption { /** sirb para colocacr ala izquierda o derecha a los pares o impares */
-    
-    text-align: center;
-}
-
-/*  compra tus entrada */
-
-
-#tickets-container {
-    padding: 1em 0;
-    background-color: #F2F1EF;
-    color: #e74c3c;
-    
-}
-
-
-/* Pricing table */
-
-.pricing-table {
-    font-family: 'Volkhov', serif;
-}
-
-.pricing-table {
-  border: solid 1px #DDDDDD; }
-  .pricing-table li {
-    border-bottom: dotted 1px #DDDDDD;
-    font-size: 0.85rem;
-    padding: 0.875rem 1.125rem; }
-    .pricing-table li:last-child {
-      border-bottom: 0; }
-  .pricing-table .title {
-    background-color: #333333;
-    color: #EEEEEE;
-    font-size: 0.875rem;
-    border-bottom: 0; }
-  .pricing-table .price {
-    background-color: #F6F6F6;
-    color: #333333;
-    font-size: 1.75rem;
-    border-bottom: 0; }
-  .pricing-table .description {
-    color: #777777;
-    font-size: 0.925rem; }
-  .pricing-table .button {
-    margin: 0; }
-
-
-/* pricing table*/
-
-
-#info-container {
-  max-height: 800px;
-}
-
-.info-map iframe {
-  width: 100%;
-  height: 600px;
-}
-
-#info-container {
-    background-color: black;
-    color: white;
-    padding: 1em 0;
-    
-}
-
-
-
-/*  suscribete*/
-
-
-
+#lineup-container .tabs .tabs-title.is-active a{background-color:#044F67;color:#e74c3c;border:0;font-family:'Volkhov', serif;text-transform:uppercase;}
+.tabs-content{border:0;}
+#lineup-container .tabs .tabs-title a{font-size:18px;color:white;}
+#lineup-container .tabs .tabs-title a:hover{color:#e74c3c;background-color:#044F67;}
+.tabs-title{display:inline-block;float:none;}
+#lineup-container .orbit-slide{margin-bottom:1em;margin-top:1em;}
+#lineup-container .miorbit-caption{position:relative;top:-55px;}
+#lineup-container .column:nth-child (odd) figcaption{text-align:center;}
+#tickets-container{padding:1em 0;background-color:#F2F1EF;color:#e74c3c;}
+.pricing-table{font-family:'Volkhov', serif;}
+.pricing-table{border:solid 1px #DDDDDD;}
+.pricing-table li{border-bottom:dotted 1px #DDDDDD;font-size:0.85rem;padding:0.875rem 1.125rem;}
+.pricing-table li:last-child{border-bottom:0;}
+.pricing-table .title{background-color:#333333;color:#EEEEEE;font-size:0.875rem;border-bottom:0;}
+.pricing-table .price{background-color:#F6F6F6;color:#333333;font-size:1.75rem;border-bottom:0;}
+.pricing-table .description{color:#777777;font-size:0.925rem;}
+.pricing-table .button{margin:0;}
+#info-container{max-height:800px;}
+.info-map iframe{width:100%;height:600px;}
+#info-container{background-color:black;color:white;padding:1em 0;}
 #info-container h3,
-#suscribete-container h3 {
-    font-family: 'Volkhov', serif;
-}
-
-#suscribete-container {
-    background-color: #044F67;
-    padding: 0.5em 0;
-    color: white;
-    
-}
-
-#suscribete-container h4 small {
-    color: #3498db; 
-    font-family: 'Volkhov', serif;
-}
-
-#suscribete-container input[type:"submit"] {
-    
-   font-family: 'Volkhov', serif;
-    
-}
-
-#suscribete-container .error-container {
-    
-     font-family: 'Volkhov', serif;
-    
-}
-
-.is-invalid-input:not(:focus){
-    background-color: #bdc3c7;
-    border-color: #95a5a6;
-}
-
-
-
-/* suscribete  */
-
-
-/* menu sticky */
-.data-sticky {
-    width: 100%;
-    z-index: 100;
-}
-
-/* menu sticky */
-
-/* offcanvas---menude navegacion para moviles*/
-
-
+#suscribete-container h3{font-family:'Volkhov', serif;}
+#suscribete-container{background-color:#044F67;padding:0.5em 0;color:white;}
+#suscribete-container h4 small{color:#3498db;font-family:'Volkhov', serif;}
+#suscribete-container input[type:"submit"]{font-family:'Volkhov', serif;}
+#suscribete-container .error-container{font-family:'Volkhov', serif;}
+.is-invalid-input:not(:focus){background-color:#bdc3c7;border-color:#95a5a6;}
+.data-sticky{width:100%;z-index:100;}
 #offCanvas,
-#offCanvas li a {
-    background-color: black;
-    font-family: 'Volkhov', serif;
-    color: white;
-    
-}
-
-/* /////offcanvas---menude navegacion para moviles*/
+#offCanvas li a{background-color:black;font-family:'Volkhov', serif;color:white;}
